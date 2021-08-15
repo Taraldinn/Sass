@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import 'common'
+$primary-font: "Ubuntu", sans-serif;
+$logo-font: "Patua One", cursive;
+
+.area {
+  width: 1170px;
+  margin: 0 auto;
+  .menu {
+    font-family: $primary-font;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      font-family: $logo-font;
+      h1 {
+        color: tomato;
+      }
+    }
+    .menu-bar {
+      margin-top: 30px;
+
+      ul {
+        display: flex;
+        list-style: none;
+        margin: 0 auto;
+      }
+      li {
+        padding: 0px 10px;
+
+        a {
+          text-decoration: none;
+          color: coral;
+        }
+      }
+    }
+  }
+
+  .card-div {
+    display: grid;
+    width: 1110px;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: $primary-font;
+    margin-top: 100px;
+    
+    .card {
+      width: 310px;
+      height: 250px;
+      text-align: center;
+      background-color: rgb(250, 255, 255);
+      border-radius:7px;
+      margin:0px 30px;
+
+  
+     
+        p {
+            padding-top: 20px;padding-bottom: 20px;
+        }
+
+            a {
+            text-decoration: none;
+            background-color: coral;
+            padding: 10px 10px;
+            color: white;
+            border-radius: 5px;
+            
+            }
+
+        }
+  }
+
+  .about{
+      margin-top:100px;
+      font-family: $primary-font;
+      h1{
+          text-align:center;
+      }
+      p{
+          font-size: 25px;
+      }
+
+       a{
+        text-decoration: none;
+        background-color: coral;
+        padding: 10px 10px;
+        color: white;
+        border-radius: 5px;
+        margin:0 auto;
+       }
+  }
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+.area {
+  width: 1170px;
+  margin: 0 auto;
+}
+.area .menu {
+  font-family: "Ubuntu", sans-serif;
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.area .menu .logo {
+  font-family: "Patua One", cursive;
+}
+.area .menu .logo h1 {
+  color: tomato;
+}
+.area .menu .menu-bar {
+  margin-top: 30px;
+}
+.area .menu .menu-bar ul {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+}
+.area .menu .menu-bar li {
+  padding: 0px 10px;
+}
+.area .menu .menu-bar li a {
+  text-decoration: none;
+  color: coral;
+}
+.area .card-div {
+  display: grid;
+  width: 1110px;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 100px;
+}
+.area .card-div .card {
+  width: 310px;
+  height: 250px;
+  text-align: center;
+  background-color: #faffff;
+  border-radius: 7px;
+  margin: 0px 30px;
+}
+.area .card-div .card p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.area .card-div .card a {
+  text-decoration: none;
+  background-color: coral;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 5px;
+}
+.area .about {
+  margin-top: 100px;
+  font-family: "Ubuntu", sans-serif;
+}
+.area .about h1 {
+  text-align: center;
+}
+.area .about p {
+  font-size: 25px;
+}
+.area .about a {
+  text-decoration: none;
+  background-color: coral;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
